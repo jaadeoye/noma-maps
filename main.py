@@ -45,7 +45,7 @@ SIMPLIFY_TOLERANCE = 0.0005
 
 # Risk colors
 RISK_COLORS = {
-    "Low": "blue",
+    "Low": "#ADD8E6",
     "High": "#FF7F7F",
     "Unknown": "grey"
 }
