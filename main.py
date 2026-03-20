@@ -468,4 +468,4 @@ st.write("[Braimah RO, Adeoye J, Taiwo AO, Bello S, Bala M, Butali A, Ile-Ogeden
 st.markdown('####')
 st.markdown('####')
 st.markdown('####')
-st.write("###### This web tool is supported by the HKU Knowledge Exchange Impact Project Scheme (KE-SI-2025/26-12)  | 2026")
+st.write("###### Map visualization is supported by the HKU Knowledge Exchange Impact Project Scheme (KE-SI-2025/26-12)  | 2026")
