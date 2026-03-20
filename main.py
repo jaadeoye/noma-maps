@@ -45,15 +45,14 @@ SIMPLIFY_TOLERANCE = 0.0005
 
 # Risk colors
 RISK_COLORS = {
-    "Low": "#2DC937",
-    "High": "#CC3232",
-    "Unknown": "#BDBDBD",
+    "Low": "blue",
+    "High": "red"
 }
 
 #streamlit
 
 st.set_page_config(
-    page_title="Nigerian Noma Incidence Risk Map by LGAs",
+    page_title="Nigerian Noma Incidence Risk Maps by LGAs",
     layout="wide"
 )
 
@@ -75,7 +74,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title(":green[Nigerian Noma Incidence Risk Map]")
+st.title(":green[Nigerian Noma Incidence Risk Maps]")
 st.caption("Select a state, click an LGA on the map, and view detailed noma incidence risk estimates")
 
 
@@ -189,8 +188,8 @@ def add_legend(folium_map):
         font-size: 14px;
     ">
         <b>Risk level</b><br>
-        <i style="background:#2DC937; width:12px; height:12px; display:inline-block; margin-right:8px;"></i>Low<br>
-        <i style="background:#CC3232; width:12px; height:12px; display:inline-block; margin-right:8px;"></i>High<br>
+        <i style="background:blue; width:12px; height:12px; display:inline-block; margin-right:8px;"></i>Low<br>
+        <i style="background:red; width:12px; height:12px; display:inline-block; margin-right:8px;"></i>High<br>
     </div>
     """
     folium_map.get_root().html.add_child(folium.Element(legend_html))
