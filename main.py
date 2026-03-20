@@ -463,7 +463,7 @@ with detail_col:
 st.markdown('####')
 st.markdown('####')
 st.write("#### :gray[References:]")
-st.write("Braimah RO, Taiwo AO, Bello S, et al. Spatial Distribution of Noma Incidence in Northern Nigeria, 1999-2024: A model-based study. (In Press: The Lancet Global Health)")
+st.write("Braimah RO, Taiwo AO, Bello S, Bala M, Butali A, Ile-Ogedengbe BO, Bello AA, Fatusi OA, Aborisade AO, Adeoye J. Spatial Incidence of Noma in Northern Nigeria, 1999-2004: A model-based study. (In Press: The Lancet Global Health)")
 st.write("[Braimah RO, Adeoye J, Taiwo AO, Bello S, Bala M, Butali A, Ile-Ogedengbe BO, Bello AA. Estimated incidence and clinical presentation of Noma in Northern Nigeria (1999-2024).PLoS Negl Trop Dis. 2025 May 29;19(5):e0012818.](https://doi.org/10.1371/journal.pntd.0012818)")
 st.markdown('####')
 st.markdown('####')
