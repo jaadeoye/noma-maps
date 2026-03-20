@@ -189,8 +189,8 @@ def add_legend(folium_map):
         font-size: 14px;
     ">
         <b>Risk level</b><br>
-        <i style="background:blue; width:12px; height:12px; display:inline-block; margin-right:8px;"></i>Low<br>
-        <i style="background:red; width:12px; height:12px; display:inline-block; margin-right:8px;"></i>High<br>
+        <i style="background:#ADD8E6; width:12px; height:12px; display:inline-block; margin-right:8px;"></i>Low<br>
+        <i style="background:#FF7F7F; width:12px; height:12px; display:inline-block; margin-right:8px;"></i>High<br>
     </div>
     """
     folium_map.get_root().html.add_child(folium.Element(legend_html))
