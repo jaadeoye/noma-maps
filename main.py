@@ -46,7 +46,8 @@ SIMPLIFY_TOLERANCE = 0.0005
 # Risk colors
 RISK_COLORS = {
     "Low": "blue",
-    "High": "red"
+    "High": "red",
+    "Unknown": "grey"
 }
 
 #streamlit
